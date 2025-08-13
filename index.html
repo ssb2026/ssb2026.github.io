@@ -35,29 +35,182 @@
       color: #FDD023;
     }
 
+    h3 {
+      font-size: 1.5rem;
+      font-weight: 300;
+      margin-bottom: 30px;
+      color: #FDD023;
+    }
+
+    a {
+      color: #FDD023; /* gold, matches headings/text */
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: #FFF066; /* slightly brighter gold on hover */
+    }
+
+    a:visited {
+      color: #CCB84A; /* softer gold for visited links */
+    }
+
     p {
       font-size: 1.2rem;
       font-weight: 300;
       line-height: 1.6;
       color: #FDD023;
     }
+
+    /* Program overview section */
+    .program-overview {
+      margin-top: 50px;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .program-overview h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2.2rem;
+      border-bottom: 2px solid #FDD023;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .program-day {
+      margin-bottom: 25px;
+    }
+
+    .program-day h3 {
+      color: #FDD023;
+      font-weight: 700;
+      font-size: 1.4rem;
+      margin-bottom: 8px;
+      padding-bottom: 4px;
+      display: inline-block;
+    }
+
+    .program-day ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .program-day ul li {
+      color: #FDD023;
+      font-size: 1.1rem;
+      margin-bottom: 5px;
+    }
+
+    /* Accommodations section */
+    .accommodations {
+      margin-top: 50px;
+      background-color: rgba(255, 255, 255, 0.15);
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .accommodations h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2.2rem;
+      border-bottom: 2px solid #FDD023;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    /* Registration section */
+    .registration {
+      margin-top: 50px;
+      background-color: rgba(255, 255, 255, 0.15);
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .registration h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2.2rem;
+      border-bottom: 2px solid #FDD023;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
   </style>
 </head>
 <body>
   <div class="container">
     <h1>2026 SSB Breakout Meeting</h1>
-    <h2>The Importance of Natural History Collections</h2>
     <h2>Jan. 9-11, 2026</h2>
     <h2>Baton Rouge, LA</h2>
-    <p>
-      Workshops, panels, lightning talks, socials, and more!
-    </p>
-    <p>
-      Those interested in giving a workshop on Jan. 9th should contact Jeremy Brown (jembrown@lsu.edu) as soon as possible. Workshops will be held at the Hilton hotel in downtown Baton Rouge.
-    </p>
-    <p>
-      More details coming soon...
-    </p>
+    <h2>The Importance of Natural History Collections</h2>
+    <img src="https://ssb2026.github.io/birds.jpg" alt="A picture of a boy visiting the LSU Museum of Natural Science." style="max-width: 60%; height: auto;">
+
+    <!-- Program Overview Section -->
+    <div class="program-overview">
+      <h2>Program Overview</h2>
+
+      <img src="https://ssb2026.github.io/manship.jpg" alt="A picture of the inside of the Manship Theatre in Baton Rouge." style="max-width: 60%; height: auto;">
+
+      <div class="program-day">
+        <h3>Jan. 9th (Fri)</h3>
+        <ul>
+          <li>Workshops and Small Group Meetings (<a href="https://www.hilton.com/en/hotels/btrcphf-hilton-baton-rouge-capitol-center/gallery/">Hilton Hotel</a>)</li>
+          <li>Informal Mixer (Location TBD)</li>
+        </ul>
+      </div>
+
+      <div class="program-day">
+        <h3>Jan. 10th (Sat)</h3>
+        <ul>
+          <li>Lightning Talks, Panels, Plenaries (<a href="https://www.manshiptheatre.org/">Manship Theatre</a>)</li>
+          <li>Evening Social (<a href="https://www.lsu.edu/mns/">LSU Museum of Natural Science</a>)</li>
+        </ul>
+      </div>
+
+      <div class="program-day">
+        <h3>Jan. 11th (Sun)</h3>
+        <ul>
+          <li>Lightning Talks, Panels, Plenaries (<a href="https://www.manshiptheatre.org/">Manship Theatre</a>)</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3>
+      There is still room for workshops on Jan. 9th!
+      Those interested in giving a workshop should contact Jeremy Brown (<a href="mailto:jembrown@lsu.edu?subject=SSB%20Breakout%20Meeting&body=Hello%20Jeremy,">jembrown@lsu.edu</a>) as soon as possible.
+    </h3>
+
+    <div class="accommodations">
+      <h2>Accommodations</h2>
+
+      <img src="https://ssb2026.github.io/hilton.jpg" alt="A picture of the front of the Hilton in Baton Rouge." style="max-width: 60%; height: auto;">
+
+      <p>A limited block of hotel rooms has been reserved at the Hilton Capitol Center for SSB meeting attendees. <a href="https://book.passkey.com/e/51068469">Reserve your room today at our reduced rate!</a><br>
+      (10% of room nights already booked - updated 8/12/25)
+      </p>
+
+    </div>
+
+    <div class="registration">
+      <h2>Registration</h2>
+
+      <p>Registration for the meeting should open on Aug. 15th!</p>
+
+      <p>All registrants must be members of SSB. To join SSB, renew your membership, or check on your membership status, please <a href="https://www.systbio.org/">visit the SSB website.</a></p>
+
+      <p><b>Meeting attendance is capped at 200 people</b>. Don't wait to register.</p>
+
+      <p>Early bird meeting registration fees are $75 for student & postdoc members of SSB and $175 for professional SSB members.</p>
+
+    </div>
+
+
   </div>
 </body>
 </html>
