@@ -96,22 +96,46 @@
     .program-day h3 {
       color: #FDD023;
       font-weight: 700;
-      font-size: 1.4rem;
+      font-size: 1.6rem;
       margin-bottom: 8px;
       padding-bottom: 4px;
+      padding-top: 12px;
       display: inline-block;
     }
 
     .program-day ul {
       list-style-type: none;
-      padding: 0;
+      padding: 0.5em;
       margin: 0;
+      text-align: left;
     }
 
     .program-day ul li {
       color: #FDD023;
-      font-size: 1.1rem;
-      margin-bottom: 5px;
+      font-size: 1.3rem;
+      font-weight: 400;
+      margin-bottom: 0;
+      padding: 1em;
+    }
+
+    /* Style nested lists inside program days */
+    .program-day ul ul {
+      margin-left: 1.5em;          /* indent nested lists */
+      padding-left: 1em;
+      list-style-type: disc;       /* restore bullets */
+      text-align: left;
+    }
+
+    .program-day ul ul li {
+      font-size: 1.2rem;             /* slightly smaller */
+      font-weight: 200;
+      margin-bottom: 4px;
+      padding: 0;
+    }
+
+    .program-day ul ul ul {
+      list-style-type: circle;
+      text-align: left;
     }
 
     /* Accommodations section */
@@ -215,7 +239,26 @@
       <div class="program-day">
         <h3>Jan. 9th (Fri)</h3>
         <ul>
-          <li>Workshops and Small Group Meetings (<a href="https://www.hilton.com/en/hotels/btrcphf-hilton-baton-rouge-capitol-center/gallery/">Hilton Hotel</a>)</li>
+          <li>Morning Workshops and Meetings (8:30 AM - 12:00 PM, <a href="https://www.hilton.com/en/hotels/btrcphf-hilton-baton-rouge-capitol-center/gallery/">Hilton Hotel</a>)
+            <ul>
+                <li>From VCF to Population Genomic Inference Workshop (Paramount Room)</li>
+                <li>Primer on Phylogenomics Workshop (Louisiana Room)</li>
+                <li>Primer for Phylogenetic Causal Inference Workshop (Capitol Room)</li>
+                <li>NSF Program Officer Meet and Greet (King Room)</li>
+                <li>RevBayes Office Hours / Collaborative Meetings (University Room)</li>
+            </ul>
+          </li>
+          <li>Lunch (12:00 - 1:30 PM, on your own)</li>
+          <li>Afternoon Workshops and Meetings (1:30 PM - 5:00 PM, <a href="https://www.hilton.com/en/hotels/btrcphf-hilton-baton-rouge-capitol-center/gallery/">Hilton Hotel</a>)
+            <ul>
+                <li>Open Tree of Life Workshop (Louisiana Room)</li>
+                <li>Rev the Bayes and Q the Matrix Workshop (Capitol Room)</li>
+                <li>Generalized Bayesian Divergence Time Workshop (Paramount Room)</li>
+                <li>SSB Council Meeting (University Room)</li>
+                <li>RevBayes Office Hours / Collaborative Meetings (King Room)</li>
+            </ul>
+          </li>
+          <li>LSU Museum of Natural Science and Herbarium Tours (4:00 PM - 8:00 PM)</li>
           <li>Biodiversity Trivia Night (<a href="https://www.visitbatonrouge.com/listing/somewhere-neighborhood-bar/5943/">Somewhere Neighborhood Bar</a>)</li>
         </ul>
       </div>
@@ -392,7 +435,7 @@
     <div class="accommodations">
       <h2>SSB Early Career Travel Funds</h2>
 
-      <p>The SSB DEIC offers funds for early career researchers to travel to meetings. The goal of these funds is to fully support the participation of early career SSB members at regional, national, and international SSB conferences. Applicable costs include registration, lodging, travel, and visa acquisition (if applicable). A call is currently open for applications to receive funding for the 2026 SSB breakout meeting.</p>
+      <p>The SSB AICC offers funds for early career researchers to travel to meetings. The goal of these funds is to fully support the participation of early career SSB members at regional, national, and international SSB conferences. Applicable costs include registration, lodging, travel, and visa acquisition (if applicable). A call is currently open for applications to receive funding for the 2026 SSB breakout meeting.</p>
 
         <a href="https://www.systbio.org/early-career-travel-funds.html" class="register-button" target="_blank">
         Learn more and apply
